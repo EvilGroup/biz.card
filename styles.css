@@ -1,0 +1,93 @@
+/* In CSS Syntax, 'body', 'input', etc are the Selector Element 
+'color' is the Property
+'royalblue' is the Value
+*/
+
+/* 'body' selector */
+body {
+    background: rgb(29, 29, 29);
+    color: rgb(250, 242, 225);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* 'input' selector (changes input text-field size) */
+/* display: block will force the output to be locked in place as main element, controls all horizontal space */
+.input {
+    display: block;
+    width: 250px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 'img' selector (changes image size) */
+.img {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /* margin-left:auto & margin-right:auto centers an element */
+}
+
+/* 'div' or class selector (alters all info in div structure) */
+.sample-text {
+    color: white;
+    background: black;
+    width: 800px;
+    margin: 0px auto 0px auto;
+
+    border: 5px dotted salmon;
+    border-radius: 20px;   /* border-radius controls "bubbling" around borders */
+
+    padding: 20px;
+}
+
+.btns {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.item {
+    text-align: center;
+    border: 1px solid salmon;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px 20px 0px 20px; /* Margin: top, right, bottom, left */
+}
+
+.sample-flexbox {
+    display: flex; /* create code flow along horizontal axis, from left to right */
+    justify-content: center; /* centers all of items in div class */
+}
+
+.jeff {
+    width: 200px;
+}
+
+.card {
+    background: salmon;
+    color: #2b2839;
+    border-bottom: 7px solid rgb(255, 255, 196);
+
+    display: flex;
+    margin: 0px auto;
+
+    width: 400px;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+.border-utility {
+    border: 2px solid salmon;
+}
+
+.card-items {
+    justify-content: center;
+    text-align: center;
+}
